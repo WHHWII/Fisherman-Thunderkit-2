@@ -94,7 +94,7 @@ MonoBehaviour:
   inLava: 0
   baseNameToken: WUNT_FISHERMAN_UTILITY_MINION_NAME
   subtitleNameToken: 
-  bodyFlags: 2
+  bodyFlags: 51259
   lavaCooldown: 0.2
   rootMotionInMainState: 0
   mainRootSpeed: 0
@@ -110,7 +110,7 @@ MonoBehaviour:
   baseArmor: 20
   baseVisionDistance: Infinity
   baseJumpCount: 1
-  sprintingSpeedMultiplier: 2
+  sprintingSpeedMultiplier: 3
   autoCalculateLevelStats: 0
   levelMaxHealth: 60
   levelRegen: 0.02
@@ -759,10 +759,10 @@ MonoBehaviour:
   - {fileID: 504871047846803719}
   collidersB:
   - {fileID: 446505504767070563}
-  - {fileID: 7162623745594218717}
-  - {fileID: 7737652268484088434}
-  - {fileID: 3499679217059991489}
-  - {fileID: 3510452710445525876}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!65 &3417546833848006894
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1229,28 +1229,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6646383545993782355, guid: 298b8cd4bd9f0fd48988b93a6f3fa015, type: 3}
   m_PrefabInstance: {fileID: 6646383544054839454}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &3499679217059991489 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 7831171694618113887, guid: 298b8cd4bd9f0fd48988b93a6f3fa015, type: 3}
-  m_PrefabInstance: {fileID: 6646383544054839454}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &3510452710445525876 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 7821363571568825322, guid: 298b8cd4bd9f0fd48988b93a6f3fa015, type: 3}
-  m_PrefabInstance: {fileID: 6646383544054839454}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &7162623745594218717 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 4565087368759484483, guid: 298b8cd4bd9f0fd48988b93a6f3fa015, type: 3}
-  m_PrefabInstance: {fileID: 6646383544054839454}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7321887720431026159 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4152354625962772337, guid: 298b8cd4bd9f0fd48988b93a6f3fa015, type: 3}
-  m_PrefabInstance: {fileID: 6646383544054839454}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &7737652268484088434 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 3989374671356078828, guid: 298b8cd4bd9f0fd48988b93a6f3fa015, type: 3}
   m_PrefabInstance: {fileID: 6646383544054839454}
   m_PrefabAsset: {fileID: 0}

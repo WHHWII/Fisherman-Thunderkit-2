@@ -143,14 +143,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   catalogIndex: -1
-  ghostPrefab: {fileID: 5093942512802237575, guid: d2c5b4eb38760994980cf0b68e51abd1, type: 3}
+  ghostPrefab: {fileID: 5093942512802237575, guid: 399a60454573c1b4fabf2a1dcd102fcb, type: 3}
   ghostTransformAnchor: {fileID: 27428945843472879}
   startSound: 
   cannotBeDeleted: 0
   authorityHandlesCollisionEvents: 0
   flightSoundLoop: {fileID: 0}
   canImpactOnTrigger: 0
-  allowPrediction: 1
+  allowPrediction: 0
   owner: {fileID: 0}
   localCollisionHappened: 0
   procCoefficient: 1
