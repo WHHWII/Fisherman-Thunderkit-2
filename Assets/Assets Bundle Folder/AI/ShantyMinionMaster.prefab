@@ -188,7 +188,7 @@ MonoBehaviour:
   driverUpdateTimerOverride: -1
   resetCurrentEnemyOnNextDriverSelection: 1
   noRepeat: 0
-  nextHighPriorityOverride: {fileID: 7865368498995746339}
+  nextHighPriorityOverride: {fileID: 0}
 --- !u!114 &7865368498995746343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,7 +231,7 @@ MonoBehaviour:
   driverUpdateTimerOverride: 5
   resetCurrentEnemyOnNextDriverSelection: 1
   noRepeat: 0
-  nextHighPriorityOverride: {fileID: 7865368498995746339}
+  nextHighPriorityOverride: {fileID: 0}
 --- !u!114 &7865368498995746339
 MonoBehaviour:
   m_ObjectHideFlags: 0
