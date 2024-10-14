@@ -14,15 +14,11 @@ GameObject:
   - component: {fileID: 7865368498995746341}
   - component: {fileID: 7865368498995746340}
   - component: {fileID: 7865368498995746349}
-  - component: {fileID: 7865368498995746336}
-  - component: {fileID: 7865368498995746343}
-  - component: {fileID: 7865368498995746339}
   - component: {fileID: 7865368498995746338}
   - component: {fileID: 9058471145297875559}
   - component: {fileID: 4040794908443805018}
-  - component: {fileID: 5047237017243692312}
   m_Layer: 0
-  m_Name: ShantyMinionMaster
+  m_Name: WhaleMinionMaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,135 +144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ownerMaster: {fileID: 0}
---- !u!114 &7865368498995746336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7865368498995746348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customName: FollowCommand
-  skillSlot: 0
-  requiredSkill: {fileID: 0}
-  requireSkillReady: 0
-  requireEquipmentReady: 0
-  minUserHealthFraction: -Infinity
-  maxUserHealthFraction: Infinity
-  minTargetHealthFraction: -Infinity
-  maxTargetHealthFraction: Infinity
-  minDistance: 3
-  maxDistance: Infinity
-  selectionRequiresTargetLoS: 0
-  selectionRequiresOnGround: 0
-  selectionRequiresAimTarget: 0
-  maxTimesSelected: -1
-  moveTargetType: 3
-  activationRequiresTargetLoS: 0
-  activationRequiresAimTargetLoS: 1
-  activationRequiresAimConfirmation: 1
-  movementType: 1
-  moveInputScale: 1
-  aimType: 2
-  ignoreNodeGraph: 1
-  shouldSprint: 0
-  shouldFireEquipment: 0
-  shouldTapButton: 1
-  buttonPressType: 2
-  driverUpdateTimerOverride: -1
-  resetCurrentEnemyOnNextDriverSelection: 1
-  noRepeat: 0
-  nextHighPriorityOverride: {fileID: 0}
---- !u!114 &7865368498995746343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7865368498995746348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customName: StandStill
-  skillSlot: 0
-  requiredSkill: {fileID: 0}
-  requireSkillReady: 0
-  requireEquipmentReady: 0
-  minUserHealthFraction: -Infinity
-  maxUserHealthFraction: Infinity
-  minTargetHealthFraction: -Infinity
-  maxTargetHealthFraction: Infinity
-  minDistance: 0
-  maxDistance: 3
-  selectionRequiresTargetLoS: 0
-  selectionRequiresOnGround: 0
-  selectionRequiresAimTarget: 0
-  maxTimesSelected: -1
-  moveTargetType: 3
-  activationRequiresTargetLoS: 0
-  activationRequiresAimTargetLoS: 1
-  activationRequiresAimConfirmation: 1
-  movementType: 0
-  moveInputScale: 1
-  aimType: 2
-  ignoreNodeGraph: 0
-  shouldSprint: 0
-  shouldFireEquipment: 0
-  shouldTapButton: 1
-  buttonPressType: 2
-  driverUpdateTimerOverride: 5
-  resetCurrentEnemyOnNextDriverSelection: 1
-  noRepeat: 0
-  nextHighPriorityOverride: {fileID: 0}
---- !u!114 &7865368498995746339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7865368498995746348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customName: LeashLeader
-  skillSlot: 0
-  requiredSkill: {fileID: 0}
-  requireSkillReady: 0
-  requireEquipmentReady: 0
-  minUserHealthFraction: -Infinity
-  maxUserHealthFraction: Infinity
-  minTargetHealthFraction: -Infinity
-  maxTargetHealthFraction: Infinity
-  minDistance: 60
-  maxDistance: Infinity
-  selectionRequiresTargetLoS: 1
-  selectionRequiresOnGround: 0
-  selectionRequiresAimTarget: 0
-  maxTimesSelected: -1
-  moveTargetType: 2
-  activationRequiresTargetLoS: 0
-  activationRequiresAimTargetLoS: 1
-  activationRequiresAimConfirmation: 1
-  movementType: 1
-  moveInputScale: 1
-  aimType: 2
-  ignoreNodeGraph: 1
-  shouldSprint: 1
-  shouldFireEquipment: 0
-  shouldTapButton: 1
-  buttonPressType: 2
-  driverUpdateTimerOverride: -1
-  resetCurrentEnemyOnNextDriverSelection: 1
-  noRepeat: 0
-  nextHighPriorityOverride: {fileID: 0}
 --- !u!114 &7865368498995746338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,51 +201,8 @@ MonoBehaviour:
   m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customName: LeashLeaderNodeGraph
-  skillSlot: 0
-  requiredSkill: {fileID: 0}
-  requireSkillReady: 0
-  requireEquipmentReady: 0
-  minUserHealthFraction: -Infinity
-  maxUserHealthFraction: Infinity
-  minTargetHealthFraction: -Infinity
-  maxTargetHealthFraction: Infinity
-  minDistance: 60
-  maxDistance: Infinity
-  selectionRequiresTargetLoS: 0
-  selectionRequiresOnGround: 0
-  selectionRequiresAimTarget: 0
-  maxTimesSelected: -1
-  moveTargetType: 2
-  activationRequiresTargetLoS: 0
-  activationRequiresAimTargetLoS: 1
-  activationRequiresAimConfirmation: 1
-  movementType: 1
-  moveInputScale: 1
-  aimType: 2
-  ignoreNodeGraph: 0
-  shouldSprint: 1
-  shouldFireEquipment: 0
-  shouldTapButton: 1
-  buttonPressType: 2
-  driverUpdateTimerOverride: -1
-  resetCurrentEnemyOnNextDriverSelection: 1
-  noRepeat: 0
-  nextHighPriorityOverride: {fileID: 0}
---- !u!114 &5047237017243692312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7865368498995746348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customName: StandStillNoTarget
-  skillSlot: 0
+  customName: DriftForwards
+  skillSlot: -1
   requiredSkill: {fileID: 0}
   requireSkillReady: 0
   requireEquipmentReady: 0
@@ -392,15 +216,15 @@ MonoBehaviour:
   selectionRequiresOnGround: 0
   selectionRequiresAimTarget: 0
   maxTimesSelected: -1
-  moveTargetType: 2
+  moveTargetType: 0
   activationRequiresTargetLoS: 0
   activationRequiresAimTargetLoS: 1
   activationRequiresAimConfirmation: 1
-  movementType: 0
+  movementType: 1
   moveInputScale: 1
-  aimType: 2
+  aimType: 4
   ignoreNodeGraph: 0
-  shouldSprint: 0
+  shouldSprint: 1
   shouldFireEquipment: 0
   shouldTapButton: 1
   buttonPressType: 2

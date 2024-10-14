@@ -392,6 +392,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b1f7e2dd11c28334ea47f08b8a9776a0, type: 2}
+    - target: {fileID: 3742260059371331726, guid: 2f44598ec7bbc2d43805189f72cab74a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740553111445458812, guid: 2f44598ec7bbc2d43805189f72cab74a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f44598ec7bbc2d43805189f72cab74a, type: 3}
 --- !u!4 &2997235202898826853 stripped
@@ -417,6 +425,11 @@ Transform:
 --- !u!4 &4953608063784461610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -9023299870776395575, guid: 2f44598ec7bbc2d43805189f72cab74a, type: 3}
+  m_PrefabInstance: {fileID: 5077822713841147363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5198090174600177145 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8188846340309731302, guid: 2f44598ec7bbc2d43805189f72cab74a, type: 3}
   m_PrefabInstance: {fileID: 5077822713841147363}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &5384445928338120882 stripped
@@ -482,6 +495,8 @@ MonoBehaviour:
     transform: {fileID: 8482598554615821814}
   - name: StabMuzzle
     transform: {fileID: 2492892362873224515}
+  - name: PoleEnd
+    transform: {fileID: 5198090174600177145}
 --- !u!114 &7868016798806387065
 MonoBehaviour:
   m_ObjectHideFlags: 0

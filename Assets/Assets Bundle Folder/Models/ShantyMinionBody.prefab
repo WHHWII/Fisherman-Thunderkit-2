@@ -132,7 +132,7 @@ MonoBehaviour:
   baseMaxHealth: 500
   baseRegen: 500
   baseMaxShield: 0
-  baseMoveSpeed: 10
+  baseMoveSpeed: 12
   baseAcceleration: 1000
   baseJumpPower: 16
   baseDamage: 16
@@ -141,7 +141,7 @@ MonoBehaviour:
   baseArmor: 200000
   baseVisionDistance: Infinity
   baseJumpCount: 1
-  sprintingSpeedMultiplier: 3
+  sprintingSpeedMultiplier: 10
   autoCalculateLevelStats: 0
   levelMaxHealth: 500
   levelRegen: 500
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathStateMachine: {fileID: 684378450728004443}
   deathState:
-    _typeName: 
+    _typeName: EntityStates.EngiTurret.DeathState
   idleStateMachine:
   - {fileID: 684378450728004443}
   bypassDeathLayerChange: 0
@@ -894,6 +894,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformPairs:
+  - name: MainHurtbox
+    transform: {fileID: 2300188152117159038}
   - name: CannonEnd
     transform: {fileID: 1939217613}
   - name: Cannon
@@ -908,8 +910,6 @@ MonoBehaviour:
     transform: {fileID: 1787555820414366978}
   - name: Propeller
     transform: {fileID: 0}
-  - name: MainHurtbox
-    transform: {fileID: 2300188152117159038}
   - name: MainHurtbox1
     transform: {fileID: 8773291904049542652}
   - name: MainHurtbox2
