@@ -85,6 +85,7 @@ GameObject:
   - component: {fileID: 6841235203413910401}
   - component: {fileID: 1409630486968551868}
   - component: {fileID: 2005894964415482451}
+  - component: {fileID: -5341986813663829827}
   m_Layer: 0
   m_Name: FishermanJellyBombProjectile
   m_TagString: Untagged
@@ -461,6 +462,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: -426722256131309532}
   antiGravityCoefficient: 0.3
+--- !u!114 &-5341986813663829827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4913082042920558271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -315171339, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideAllyCardDisplay: 0
+  _teamIndex: -1
 --- !u!1 &8392479819316430669
 GameObject:
   m_ObjectHideFlags: 0

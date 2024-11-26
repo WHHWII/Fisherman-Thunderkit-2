@@ -214,6 +214,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "riskofthunder-r2api_animations": {
+      "version": "file:R2API_Animations",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "riskofthunder-r2api_artifactcode": {
       "version": "file:R2API_ArtifactCode",
       "depth": 0,
@@ -322,6 +328,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "riskofthunder-r2api_proctype": {
+      "version": "file:R2API_ProcType",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "riskofthunder-r2api_recalculatestats": {
       "version": "file:R2API_RecalculateStats",
       "depth": 0,
@@ -383,13 +395,13 @@
       "dependencies": {}
     },
     "riskofthunder-ror2editorkit": {
-      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git#5.2.1",
+      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git#5.4.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0"
       },
-      "hash": "88d3b2ec4317d7fc9c6e2364405197d41b42e505"
+      "hash": "0a5d4c7644e7ebcfc977a6332e9190bb4d263b16"
     },
     "riskofthunder-ror2importextensions": {
       "version": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git",
