@@ -109,7 +109,6 @@ GameObject:
   - component: {fileID: 7875503533580913494}
   - component: {fileID: 7875503533580913495}
   - component: {fileID: 476858967308754693}
-  - component: {fileID: 3897624662525007580}
   m_Layer: 0
   m_Name: FishermanHookProjectile
   m_TagString: Untagged
@@ -286,6 +285,7 @@ MonoBehaviour:
   damageType:
     damageType: 0
     damageTypeExtended: 0
+    damageSource: 0
   useDotMaxStacksFromAttacker: 0
   dotMaxStacksFromAttacker: 4294967295
 --- !u!136 &7875503533580913488
@@ -474,24 +474,6 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!114 &3897624662525007580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7875503533580913489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 768908969, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetTransform: {fileID: 7875503533580913485}
-  insideViewObject: {fileID: 0}
-  outsideViewObject: {fileID: 0}
-  alwaysVisibleObject: {fileID: 0}
-  shouldRotateOutsideViewObject: 1
-  outsideViewRotationOffset: 0
 --- !u!1 &8002369114220273312
 GameObject:
   m_ObjectHideFlags: 0
