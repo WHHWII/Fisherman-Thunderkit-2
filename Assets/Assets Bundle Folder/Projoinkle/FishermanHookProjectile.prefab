@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4046144934262176095}
   - component: {fileID: 5492146176283542786}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: HitBox (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7875503532853138284}
   - component: {fileID: 7875503532853138285}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 7875503533580913494}
   - component: {fileID: 7875503533580913495}
   - component: {fileID: 476858967308754693}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: FishermanHookProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 162559879816313008}
   - component: {fileID: 7871204468371451099}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: HitBox (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
