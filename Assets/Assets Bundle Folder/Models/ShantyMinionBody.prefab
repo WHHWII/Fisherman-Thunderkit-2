@@ -144,15 +144,15 @@ MonoBehaviour:
   baseJumpCount: 1
   sprintingSpeedMultiplier: 10
   autoCalculateLevelStats: 0
-  levelMaxHealth: 60
+  levelMaxHealth: 70
   levelRegen: 0.5
   levelMaxShield: 0
-  levelMoveSpeed: 0
+  levelMoveSpeed: 0.2
   levelJumpPower: 0
   levelDamage: 0
   levelAttackSpeed: 0
   levelCrit: 0
-  levelArmor: 1
+  levelArmor: 2
   amputatedMaxHealth: 0
   amputateMaxHealthMinimum: 1
   extraSecondaryFromSkill: 0
