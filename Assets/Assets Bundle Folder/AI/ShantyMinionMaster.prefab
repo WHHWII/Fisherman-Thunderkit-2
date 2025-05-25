@@ -63,7 +63,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   destroyOnBodyDeath: 1
-  lssMoneyExp: 0
+  ExtraBossMissileMoneyRemainder: 0
+  trackedFreeUnlocks: 0
+  trackedMissileCount: 0
   isBoss: 0
   preventGameOver: 1
   devotionInventoryPrefab: {fileID: 0}
@@ -108,9 +110,11 @@ MonoBehaviour:
   desiredSpawnNodeGraphType: 1
   stateMachine: {fileID: 0}
   scanState:
-    _typeName: EntityStates.AI.Walker.Wander
+    _typeName: EntityStates.AI.Walker.Wander, RoR2, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   isHealer: 0
   enemyAttention: 0
+  prioritizePlayers: 0
   aimVectorDampTime: 0.03
   aimVectorMaxSpeed: 5000
   selectedSkilldriverName: 

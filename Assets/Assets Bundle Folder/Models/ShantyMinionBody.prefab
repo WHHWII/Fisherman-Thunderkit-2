@@ -130,10 +130,10 @@ MonoBehaviour:
   lavaCooldown: 0.2
   rootMotionInMainState: 0
   mainRootSpeed: 0
-  baseMaxHealth: 200
+  baseMaxHealth: 1
   baseRegen: 1
-  baseMaxShield: 0
-  baseMoveSpeed: 12
+  baseMaxShield: 200
+  baseMoveSpeed: 13
   baseAcceleration: 1000
   baseJumpPower: 16
   baseDamage: 0
@@ -144,15 +144,15 @@ MonoBehaviour:
   baseJumpCount: 1
   sprintingSpeedMultiplier: 10
   autoCalculateLevelStats: 0
-  levelMaxHealth: 70
+  levelMaxHealth: 0
   levelRegen: 0.5
-  levelMaxShield: 0
-  levelMoveSpeed: 0.2
+  levelMaxShield: 70
+  levelMoveSpeed: 0
   levelJumpPower: 0
   levelDamage: 0
   levelAttackSpeed: 0
   levelCrit: 0
-  levelArmor: 2
+  levelArmor: 3
   amputatedMaxHealth: 0
   amputateMaxHealthMinimum: 1
   extraSecondaryFromSkill: 0
