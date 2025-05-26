@@ -9,16 +9,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7865368498995746361}
+  - component: {fileID: 7865368498995746338}
   - component: {fileID: 7865368498995746363}
   - component: {fileID: 7865368498995746362}
   - component: {fileID: 7865368498995746341}
   - component: {fileID: 7865368498995746340}
+  - component: {fileID: 9058471145297875559}
   - component: {fileID: 7865368498995746349}
   - component: {fileID: 7865368498995746336}
   - component: {fileID: 7865368498995746343}
   - component: {fileID: 7865368498995746339}
-  - component: {fileID: 7865368498995746338}
-  - component: {fileID: 9058471145297875559}
   - component: {fileID: 4040794908443805018}
   - component: {fileID: 5047237017243692312}
   m_Layer: 0
@@ -43,6 +43,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7865368498995746338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7865368498995746348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1578512655, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7865368498995746363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,6 +80,9 @@ MonoBehaviour:
   trackedMissileCount: 0
   isBoss: 0
   preventGameOver: 1
+  _seekerRevivedOnce: 0
+  _seekerRevitalize: 0
+  seekerSelfRevive: 0
   devotionInventoryPrefab: {fileID: 0}
   devotionInventoryUpdaterRef: {fileID: 0}
   devotionItem: 0
@@ -110,7 +125,7 @@ MonoBehaviour:
   desiredSpawnNodeGraphType: 1
   stateMachine: {fileID: 0}
   scanState:
-    _typeName: EntityStates.AI.Walker.Wander, RoR2, Version=0.0.0.0, Culture=neutral,
+    _typeName: EntityStates.AI.Walker.Combat, RoR2, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   isHealer: 0
   enemyAttention: 0
@@ -135,10 +150,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   customName: AI
   initialStateType:
-    _typeName: EntityStates.AI.Walker.Wander
+    _typeName: EntityStates.AI.Walker.Wander, RoR2, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   mainStateType:
-    _typeName: EntityStates.AI.Walker.Wander
+    _typeName: EntityStates.AI.Walker.Combat, RoR2, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   debug: 0
+--- !u!114 &9058471145297875559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7865368498995746348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &7865368498995746349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,51 +331,6 @@ MonoBehaviour:
   resetCurrentEnemyOnNextDriverSelection: 1
   noRepeat: 0
   nextHighPriorityOverride: {fileID: 0}
---- !u!114 &7865368498995746338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7865368498995746348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1578512655, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9058471145297875559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7865368498995746348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
 --- !u!114 &4040794908443805018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,7 +395,7 @@ MonoBehaviour:
   maxUserHealthFraction: Infinity
   minTargetHealthFraction: -Infinity
   maxTargetHealthFraction: Infinity
-  minDistance: -Infinity
+  minDistance: 0
   maxDistance: Infinity
   selectionRequiresTargetLoS: 0
   selectionRequiresOnGround: 0
@@ -398,7 +403,7 @@ MonoBehaviour:
   maxTimesSelected: -1
   moveTargetType: 2
   activationRequiresTargetLoS: 0
-  activationRequiresAimTargetLoS: 1
+  activationRequiresAimTargetLoS: 0
   activationRequiresAimConfirmation: 1
   movementType: 0
   moveInputScale: 1
