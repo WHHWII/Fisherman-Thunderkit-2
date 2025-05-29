@@ -15,6 +15,13 @@
       },
       "hash": "450171d64287ebd49764e40a45dc2a2eaeebd053"
     },
+    "com.thetimesweeper.henryeditortools": {
+      "version": "https://github.com/TheTimeSweeper/HenryEditorTools.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "de4cf6a8a31364a1e9f900b357a1ee8cb7692ec8"
+    },
     "com.unity.assetbundlebrowser": {
       "version": "https://github.com/Unity-Technologies/AssetBundles-Browser.git",
       "depth": 0,
