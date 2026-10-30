@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 1783796254, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  showAsSphere: 0
 --- !u!1 &7875503532853138282
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,6 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 1783796254, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  showAsSphere: 0
 --- !u!1 &7875503533580913489
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,6 +183,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   catalogIndex: -1
   ghostPrefab: {fileID: 5093942512802237575, guid: 868747095fcfe154b99142aa2cb7c14e, type: 3}
+  ghostPrefabReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
   ghostTransformAnchor: {fileID: 0}
   startSound: 
   cannotBeDeleted: 1
@@ -191,6 +197,7 @@ MonoBehaviour:
   owner: {fileID: 0}
   localCollisionHappened: 0
   procCoefficient: 1
+  combo: 0
   CheckChildrenForCollidersAndIncludeDisabled: 0
 --- !u!114 &7875503533580913493
 MonoBehaviour:
@@ -223,6 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: -1819008361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnEffect: {fileID: 0}
   lifetime: 1e+18
   lifetimeExpiredEffect: {fileID: 0}
   desiredForwardSpeed: 80
@@ -319,6 +327,9 @@ MonoBehaviour:
   ignoreCharacters: 0
   ignoreWorld: 0
   alignNormals: 0
+  invertNormal: 0
+  ignoreSteepSlopes: 0
+  distanceFromGround: -1
   stickEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -354,17 +365,28 @@ MonoBehaviour:
   damageCoefficient: 0
   impactEffect: {fileID: 0}
   forceVector: {x: 0, y: 0, z: 0}
+  pushAwayForce: 0
   overlapProcCoefficient: 1
   maximumOverlapTargets: 2147483647
   onServerHit:
     m_PersistentCalls:
       m_Calls: []
+  onServerHitGameObject:
+    m_PersistentCalls:
+      m_Calls: []
+  onServerHitHurtBox:
+    m_PersistentCalls:
+      m_Calls: []
   fireFrequency: 60
   resetInterval: -1
+  isSphereOverlap: 0
   requireDelayOnePhysicsFrame: 0
   ScaleWithVelocity: 0
   ScaleVelocitySource: {fileID: 0}
   ScaleWithVelocityAxis: {x: 0, y: 0, z: 1}
+  isOverrideTeam: 0
+  OverrideTeamIndex: 0
+  canHitOwner: 0
 --- !u!120 &476858967308754693
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -518,3 +540,4 @@ MonoBehaviour:
   m_Script: {fileID: 1783796254, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  showAsSphere: 0

@@ -191,6 +191,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "pseudopulse-seekerspatcher": {
+      "version": "file:SeekersPatcher",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "riskofrain2": {
       "version": "file:Risk of Rain 2",
       "depth": 0,
@@ -229,6 +235,12 @@
     },
     "riskofthunder-r2api_artifactcode": {
       "version": "file:R2API_ArtifactCode",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-r2api_characterbody": {
+      "version": "file:R2API_CharacterBody",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -289,6 +301,12 @@
     },
     "riskofthunder-r2api_elites": {
       "version": "file:R2API_Elites",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "riskofthunder-r2api_execute": {
+      "version": "file:R2API_Execute",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -389,6 +407,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "riskofthunder-r2api_teams": {
+      "version": "file:R2API_Teams",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "riskofthunder-r2api_tempvisualeffect": {
       "version": "file:R2API_TempVisualEffect",
       "depth": 0,
@@ -408,13 +432,13 @@
       "dependencies": {}
     },
     "riskofthunder-ror2editorkit": {
-      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git#5.4.1",
+      "version": "https://github.com/risk-of-thunder/RoR2EditorKit.git#5.6.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0"
       },
-      "hash": "83a8727f8f657edcf0e9f0745ac6ac8b6df627be"
+      "hash": "57a09c6c6210eaa64a7d882fcd976aed60176d58"
     },
     "riskofthunder-ror2importextensions": {
       "version": "https://github.com/risk-of-thunder/RoR2ImportExtensions.git",
@@ -422,6 +446,12 @@
       "source": "git",
       "dependencies": {},
       "hash": "d101e5d64337681ec17093f88fb1ea01d07a55f4"
+    },
+    "score-miscfixes": {
+      "version": "file:MiscFixes",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
